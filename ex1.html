@@ -1,0 +1,195 @@
+<!-- 
+ Student name : Muhammad Fahad
+ Student Id: C00311349
+ Date : 19/09/2024
+ Description : this file icludes my introduction as 
+ Who i am , 
+ What i do , 
+ what i like ,
+  what i don't like -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"> // 
+</head>
+
+<body>
+    <!-- this is the header tag ,that includes 
+     nav tag to create a navbar of my web,inside the navbar there is 2 div tags to put my logo and navbar buttons,when you will click on buttons you go to another page -->
+    <header class="header">
+
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="asstes/logo.jpeg" alt="logo" class="logo">
+            </div>
+            <div class="navbar-list">
+                <!-- to create a navbar button list i used un-order list inside the list a put "a" tag to make clickable -->
+                <ul>
+                    <li><a href="hobby.html">HOBBY</a></li>
+                    <li><a href="college.html">SCHOOL</a></li>
+                    <li><a href="Working-place.html">WORK</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- /////who i am //// -->
+        <!-- [ this section is about me whi i'm ] -->
+
+        <div class="front-main-1">
+            <div class="front-1-left">
+                <h2 class="who-im-title">WHO I AM!</h2>
+                <ol>
+                    <li>
+                        My name is Muhammad Fahad, a 23-year-old student passionate about tech and software.
+                    </li>
+                    <li>
+                        I’m currently in the second year of my Software Development degree.
+                    </li>
+                    <li>
+                        I specialize in Front-End Development and have completed courses in HTML and CSS.
+                    </li>
+                    <li>
+                        I'm focused on learning JavaScript to advance my front-end skills.
+                    </li>
+                    <li>
+                        I enjoy building user interfaces and understanding the mechanics behind web technologies.
+                    </li>
+                </ol>
+                    <button class="front-1-left-button">Discover Me!
+                    </button>
+                
+            </div>
+            <div class="front-1-right">
+                <img src="asstes/who.jpg" alt="image" class="front-1-right-img">
+            </div>
+        </div>
+    </header>
+
+    <!-- [what i do ] -->
+
+    <div class="front-main-2">
+        <div class="front-2-left">
+            <img src="asstes/java.jpg" alt="image" class="front-2-left-img">
+        </div>
+        <div class="front-2-right">
+            <h2 class="who-im-title">WHAT I DO!</h2>
+            <ol>
+                <li>
+                    I design and develop responsive web interfaces using HTML, CSS, and JavaScript.
+                </li>
+                <li>
+                    I actively work on personal projects to improve my coding skills.
+                </li>
+                <li>
+                    I explore new front-end frameworks and libraries to stay updated with industry trends.
+                </li>
+                <li>
+                    I debug and test my code to ensure optimal performance.
+                </li>
+                <li>
+                    I learn from online resources and tutorials to continually enhance my knowledge.
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- [what i like ] -->
+    <div class="front-main-1 what-i-like">
+        <div class="front-1-left">
+            <h2 class="who-im-title">WHAT I LIKE!</h2>
+            <ol>
+                <li>
+                    I enjoy problem-solving and tackling challenging coding tasks.
+                </li>
+                <li>
+                    I love building interactive and dynamic web pages.
+                </li>
+                <li>
+                    I appreciate clear, clean, and organized code structure.
+                </li>
+                <li>
+                    I enjoy collaborating with other developers and learning from their experiences.
+                </li>
+                <li>
+                    I find excitement in seeing my ideas come to life on the screen.
+                </li>
+            </ol>
+        </div>
+        <div class="front-1-right">
+            <img src="asstes/like.jpg" alt="image" class="front-1-right-img">
+        </div>
+    </div>
+
+    <!-- [what i dont like ] -->
+    <div class="front-main-2">
+        <div class="front-2-left">
+            <img src="asstes/dislike.jpg" alt="image" class="front-2-left-img">
+        </div>
+        <div class="front-2-right">
+            <h2 class="who-im-title">WHAT I DON'T LIKE!</h2>
+            <ol>
+                <li>
+                    I dislike when websites have poor user experience and cluttered design.
+                </li>
+                <li>
+                    I’m not fond of dealing with browser compatibility issues.
+                </li>
+                <li>
+                    I don’t enjoy the lack of feedback when facing difficult bugs or errors.
+                </li>
+                <li>
+                    I find it frustrating when documentation is unclear or incomplete.
+                </li>
+                <li>
+                    I dislike inefficiency in code or using outdated practices.
+                </li>
+            </ol>
+        </div>
+    </div>
+    <!-- /////////form section////////// -->
+<!-- section tag is used to create a different of page ,i gave ID to section for calling..whenever i click on button (if it has a ID of that tag) the button will bting me to that section -->
+    <section class="form-section" id="contact-us">
+
+        <div class="form-container">
+            <div class="form-data-container">
+
+                <div class="form-heading-container">
+                    <h2 class="form-heading">Get In Touch</h2>
+                </div>
+<!-- this is the form tag to create a form for contact.
+ input tag is used to insert data  -->
+                <form class="form-data">
+
+                    <div class="name-container"><input type="text" name="your-name" class="form-input"
+                            placeholder="Your Name"></div>
+
+
+                    <div class="phone-number-container"><input type="number" name="phone-number" class="form-input"
+                            placeholder="Phone Number"></div>
+
+                    
+                    <div class="email-container"><input type="email" name="email" class="form-input"
+                            placeholder="Enter your email"></div>
+
+                    <div class="text-area-container">
+                        <!-- text area tag is used to add message reviews dynamicaly on the page -->
+                        <textarea name="message" class="form-input" id="message" placeholder="Message"
+                        ></textarea>
+                    </div>
+                </form>
+
+                <!-- button tag is used to creat a button to submit form data  -->
+                <button  class="form-button">Contact US
+                    
+                </button>
+               
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
